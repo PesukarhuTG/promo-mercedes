@@ -1,25 +1,28 @@
 function tabs() {
-    const tabBtns = document.querySelectorAll('.design-list__item'); //все кнопки-заголовки
-    const tabContent = document.querySelectorAll('.design__descr'); //все описания, соотвествующие кнопкам-заголовкам
-    const tabImages = document.querySelectorAll('.design-images'); //все блоки картинок, соотвествующие кнопкам-заголовкам
 
-    tabBtns.forEach((tabBtn) => {
-        tabBtn.addEventListener('click', () => { //для каждой кнопки-заголовка при клике
+    const tabsHandlerElems = document.querySelectorAll('[data-tabs-handler]'); //все кнопки-заголовки по атрибуту
+    const tabsContentElems = document.querySelectorAll('[data-tabs-field]'); //все описания-заголовков по атрибуту
+    const tabsTitles = document.querySelectorAll('.design__title');
 
-            tabBtns.forEach((elem, idx) => {
-                if (elem === tabBtn) {
-                    elem.classList.add('design-list__item_active');
-                    tabContent[idx].classList.remove('hidden');
-                    tabImages[idx].classList.remove('hidden');
-                } else {
-                    elem.classList.remove('design-list__item_active');
-                    tabContent[idx].classList.add('hidden');
-                    tabImages[idx].classList.add('hidden');
-                }
+    for (let btn of tabsHandlerElems) { //перебор циклом for...of по новому стандарту
+        btn.addEventListener('click', () => {
+
+            tabsHandlerElems.forEach((elem, index) => {
+
+                elem.classList.remove('design-list__item_active');
+                btn.classList.add('design-list__item_active');
+                tabsTitles[index].classList.toggle('hidden');
+
+                tabsContentElems.forEach(content => {
+                    if (content.dataset.tabsField === btn.dataset.tabsHandler) { //если атрибут описания совпадает с атрибутом кнопки-заголовка
+                        content.classList.remove('hidden');
+                    } else {
+                        content.classList.add('hidden');
+                    }
+                });
             })
-
         })
-    });
+    }
 };
 
 export default tabs;
