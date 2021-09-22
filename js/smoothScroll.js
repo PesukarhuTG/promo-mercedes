@@ -3,8 +3,8 @@ function smoothScroll() {
     const scrollIcon = document.querySelectorAll('.main__scroll'); //доп элемент скрола
     const newArray = [...menuLinks, ...scrollIcon]; //объединение в один массив
 
-    newArray.forEach((link, index) => {
-        link.addEventListener('click', (e) => {
+    newArray.forEach((link) => {
+        link.addEventListener('click', e => {
             e.preventDefault();
             const idName = e.target.getAttribute('href').substr(1);
 
