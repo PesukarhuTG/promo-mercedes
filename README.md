@@ -17,3 +17,8 @@ To close Modal you should click on *the close button "X"* or on *the place aroun
 
 [![](https://github.com/PesukarhuTG/promo-mercedes/blob/master/img/readme/gif-modal.gif)](https://pesukarhutg.github.io/promo-mercedes/)
 
+## Step 5: Burger menu<br>
+Create an opening/closing burger-menu<br>
+**Update:** if the burger-menu is opened and we scroll the screen, the burger-menu will be closed<br><br>
+[![](https://github.com/PesukarhuTG/promo-mercedes/blob/master/img/readme/gif-burgerMenu.gif)](https://pesukarhutg.github.io/promo-mercedes/)
+
