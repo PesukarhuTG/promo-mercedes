@@ -2,7 +2,7 @@
 Study task for promo Mersedes-Benz<br>
 Preview link: https://pesukarhutg.github.io/promo-mercedes/
 
-## Step 1: Update Accordeon<br>
+## Step 1: Accordeon<br>
 [![](https://github.com/PesukarhuTG/promo-mercedes/blob/master/img/readme/gif-accordeon.gif)](https://pesukarhutg.github.io/promo-mercedes/)
 
 ## Step 2: Smooth scroll: menu items and scroll-icon<br>
@@ -21,4 +21,7 @@ To close Modal you should click on *the close button "X"* or on *the place aroun
 Create an opening/closing burger-menu<br>
 **Update:** if the burger-menu is opened and we scroll the screen, the burger-menu will be closed<br><br>
 [![](https://github.com/PesukarhuTG/promo-mercedes/blob/master/img/readme/gif-burgerMenu.gif)](https://pesukarhutg.github.io/promo-mercedes/)
+
+## Step 6: Form request<br>
+Use fetch for POST request and JSONPlaceholder API for testing
 
