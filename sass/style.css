@@ -431,7 +431,20 @@ a {
 }
 
 .btn-top:hover {
-  background: #555;
+  background: #867879;
+  -webkit-box-shadow: 0 0 10px #867879, 0 0 20px #867879, 0 0 30px #867879;
+          box-shadow: 0 0 10px #867879, 0 0 20px #867879, 0 0 30px #867879;
+}
+
+.main__button, .modal__button, .form__button {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.main__button:hover, .modal__button:hover, .form__button:hover {
+  background: #E8223A;
+  -webkit-box-shadow: 0 0 10px #E8223A, 0 0 30px #E8223A, 0 0 60px #E8223A;
+          box-shadow: 0 0 10px #E8223A, 0 0 30px #E8223A, 0 0 60px #E8223A;
 }
 
 /* header */
