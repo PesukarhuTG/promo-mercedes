@@ -28,3 +28,7 @@ Use fetch() for POST request and JSONPlaceholder API for testing.<br>
 
 ## Step 7: 'Scroll back to top' button<br>
 Create a "scroll back to top"
+
+## Step 8: Video player<br>
+Use jQuery library "Fancybox" for playing promo video in modal window on the same page
+
