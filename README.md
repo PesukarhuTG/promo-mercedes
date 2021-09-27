@@ -23,5 +23,8 @@ Create an opening/closing burger-menu<br>
 [![](https://github.com/PesukarhuTG/promo-mercedes/blob/master/img/readme/gif-burgerMenu.gif)](https://pesukarhutg.github.io/promo-mercedes/)
 
 ## Step 6: Form request<br>
-Use fetch for POST request and JSONPlaceholder API for testing
+Use fetch() for POST request and JSONPlaceholder API for testing.
+**Update:** Form request works on modal window and in the form at the end of page
 
+## Step 7: 'Scroll back to top' button<br>
+Create a "scroll back to top"
