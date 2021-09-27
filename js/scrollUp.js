@@ -10,8 +10,6 @@ function scrollUp() {
         } else {
             btnTop.style.display = '';
         }
-
-        console.log(clientHeight, scrollHeight);
     });
 
     btnTop.addEventListener('click', () => {
