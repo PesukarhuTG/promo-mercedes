@@ -2,7 +2,6 @@ function sendForms() {
     const forms = document.querySelectorAll('.form-test-drive');
     for (let form of forms) {
 
-
         form.addEventListener('submit', e => {
             e.preventDefault();
             let error = false;
@@ -37,15 +36,16 @@ function sendForms() {
                     alert('Данные успешно отправлены');
                     form.reset(); //очистка формы
 
+                    //закрытие формы при отправке данных - временное решение в силу знаний(!)
                     if (!form.closest('#modal__win').classList.contains('hidden')) {
                         form.closest('#modal__win').classList.add('hidden');
+                        document.disableScroll = false;
+                        document.body.style.cssText = '';
                     }
                 })
                 .catch(err => console.log('Ошибка, статус: ' + err.message))
         });
     }
-
-
 };
 
 export default sendForms;
