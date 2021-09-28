@@ -39,6 +39,7 @@ function sendForms() {
 
                     if (!form.closest('#modal__win').classList.contains('hidden')) {
                         form.closest('#modal__win').classList.add('hidden');
+                        document.body.style.overflow = '';
                     }
                 })
                 .catch(err => console.log('Ошибка, статус: ' + err.message))
