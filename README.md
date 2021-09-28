@@ -14,7 +14,7 @@ Preview link: https://pesukarhutg.github.io/promo-mercedes/
 ## Step 4: Modal window<br>
 Click the button "More" ► Modal window will be opened<br>
 To close Modal you should click on *the close button "X"* or on *the place around the Modal window*<br>
-
+**Update:** background scroll is locked when the Modal is open<br>
 [![](https://github.com/PesukarhuTG/promo-mercedes/blob/master/img/readme/gif-modal.gif)](https://pesukarhutg.github.io/promo-mercedes/)
 
 ## Step 5: Burger menu<br>
