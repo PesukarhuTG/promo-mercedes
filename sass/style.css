@@ -666,7 +666,7 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-image: url(../img/car/image-2.png);
-  background-position: left;
+  background-position: left top;
   background-repeat: no-repeat;
   background-size: 50%;
   padding-left: 50%;
